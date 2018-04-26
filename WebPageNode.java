@@ -9,6 +9,8 @@ public class WebPageNode{
     public WebPageNode(String id, String webLink) {
     this.id = id;
     this.webLink = webLink;
+    setLeftChild(null);
+    setRightChild(null);
     } // This should be
 		
     
